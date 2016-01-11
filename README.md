@@ -1,13 +1,13 @@
 # get-on-fire
 
-Making a web app with angular and  Firebase
+## forum-01
 
-## Steps
+* HTML : markup
+* javascript: controls
+* CSS : UI magic is here!
 
-* forum-01 starter
 
-# Reference
+## Framework 101
 
-[code camp hackpad]: https://hackpad.com/Startup-Code-Camp-51fDlZLdbyo
-
-[Course Plan]: https://hackpad.com/Course-Plan-Fulltime-tkD4CVDDsrL
+* boostrap / boostrap zero
+* angularJS
