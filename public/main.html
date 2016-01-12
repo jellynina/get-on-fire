@@ -1,4 +1,27 @@
-<div class="text-center">
+<!-- header -->
+<header class="text-center">
   <h1>Power Up! 逐電源而居</h1>
   <h4>遊牧工作者</h4>
-</div>
+</header>
+
+<h2 class="title">Contribute A Power</h2>
+<form class="">
+  <div class="form-group">
+    <input type="text" ng-model="store.title" name="store-title" placeholder="有電源的店名,或地點名稱"   class="form-control">
+  </div>
+  <div class="form-group">
+    <input type="text" ng-model="store.city" placeholder="所在縣市"  class="form-control">
+  </div>
+  <div class="form-group">
+    <input type="text" ng-model="store.address" placeholder="地址"  class="form-control">
+  </div>
+  <div class="form-group">
+    <input type="text" ng-model="store.time" placeholder="營業時間"  class="form-control">
+  </div>
+  <div class="form-group">
+    <button ng-click="savePower(store)" class="btn btn-success btn-block">Push Power!!</button>
+  </div>
+
+
+
+</form>
