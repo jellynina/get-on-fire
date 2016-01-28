@@ -19,11 +19,12 @@ app.config(function ($routeProvider) {
 
 
 app.controller('MainController', function ($scope, $firebase, Stores) {
+    $scope.stores = Stores;
     $scope.savePower = function(store) {
       if (store.city && store.address && store.time && store.title) {
 
         Stores.$add({
-          titile: store.title,
+          title: store.title,
           city: store.city,
           address: store.address,
           time: store.time
@@ -38,26 +39,3 @@ app.controller('MainController', function ($scope, $firebase, Stores) {
       }
     }
 });
-// app.controller('MainController', function ($scope, $firebase, Stores) {
-//
-//   $scope.stores = Stores;
-//
-//   $scope.savePower = function(store) {
-//     if (store.city && store.address && store.time) {
-//
-//       Stores.$add({
-//         city: store.city,
-//         address: store.address,
-//         time: store.time
-//       })
-//
-//       store.city = "";
-//       store.address = "";
-//       store.time = "";
-//
-//     }else {
-//       alert("Plz fill all");
-//     }
-//   }
-//
-// });

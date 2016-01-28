@@ -19,6 +19,10 @@ Making a web app with angular and  Firebase
 
 * [forum-01]() starter
 
+## Example: power-up
+
+* [ngAutocomplete](http://ngmodules.org/modules/ngAutocomplete)
+
 # Reference
 
 [code camp hackpad]: https://hackpad.com/Startup-Code-Camp-51fDlZLdbyo

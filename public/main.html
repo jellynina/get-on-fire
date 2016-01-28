@@ -1,3 +1,4 @@
+<section data-ng-controller="MainController">
 <!-- header -->
 <header class="text-center">
   <h1>Logo</h1>
@@ -40,3 +41,13 @@
   <button class="btn btn-info">搜尋</button>
 
 </form>
+
+<h2>All power</h2>
+
+<div ng-repeat="store in stores">
+  <p>
+    {{store.title}}, {{store.city}}, {{store.address}}, {{store.time}}
+  </p>
+</div>
+
+</section>
