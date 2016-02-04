@@ -13,14 +13,16 @@
 </header>
 
 <h2 class="title">Contribute A Power</h2>
+<form>
+  <div class="form-group">
+    <label for="" class="sr-only">蒐尋店家或地址</label>
+    <input type="text" ng-model="ngAutocomplete" name="search" placeholder="輸入店家或地址搜尋" id="AutocompleteAddr" ng-autocomplete options="options" details="details" class="form-control">
+  </div>
+</form>
 <form class="form-inline">
   <div class="form-group">
     <label for="" class="sr-only">店名：</label>
     <input type="text" ng-model="store.title" name="store-title" placeholder="有電源的店名"   class="form-control">
-  </div>
-  <div class="form-group">
-    <label for="" class="sr-only">縣市：</label>
-    <input type="text" ng-model="store.city" placeholder="所在縣市"  class="form-control">
   </div>
   <div class="form-group">
     <label for="" class="sr-only">地址：</label>
@@ -33,7 +35,8 @@
     <button ng-click="savePower(store)" class="btn btn-success btn-block">Push Power!!</button>
   </div>
 </form>
-
+<b>details (formatted address)</b>: {{details.formatted_address}}<br>
+<b>details (name)</b>: {{details.name}}
 
 <h2>All power</h2>
 
