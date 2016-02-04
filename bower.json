@@ -1,0 +1,30 @@
+{
+  "name": "get-on-fire",
+  "description": "Code Camp get on fire",
+  "main": "app.js",
+  "authors": [
+    "jellynina"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AngularJS",
+    "firebase",
+    "boostrap",
+    "gulp"
+  ],
+  "homepage": "https://github.com/jellynina/get-on-fire",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngAutocomplete": "~1.0.0"
+  }
+}
